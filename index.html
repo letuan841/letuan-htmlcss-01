@@ -23,144 +23,161 @@
 <body>
 
     <main>
-        <!-- Header -->
+        <!------------------- Header ------------------->
         <header class="header">
             <div class="content">
                 <nav class="navbar">
-                    <img src="./assets/images/Bensik.svg" alt="Logo">
-                    <ul>
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!">Features</a></li>
-                        <li><a href="#!">Services</a></li>
-                        <li><a href="#!">Resources</a></li>
-                        <li><a href="#!">Contact</a></li>
+                    <a href="#!" href="#!">
+                        <img src="./assets/images/Bensik.svg" alt="Bensik.">
+                    </a>
+                    <ul class="list">
+                        <li class="item"><a href="#!" class="link">Home</a></li>
+                        <li class="item"><a href="#!" class="link">Features</a></li>
+                        <li class="item"><a href="#!" class="link">Services</a></li>
+                        <li class="item"><a href="#!" class="link">Resources</a></li>
+                        <li class="item"><a href="#!" class="link">Contact</a></li>
                     </ul>
                     <div class="actions">
                         <a href="#!" class="action-link">Sign in</a>
-                        <a href="#!" class="action-btn btn">Sign up</a>
+                        <a href="#!" class="btn">Sign up</a>
                     </div>
                 </nav>
-
-                <div class="hero">
-                    <div class="info">
-                        <p class="welcome">Welcome to Besnik Agency</p>
-                        <h1 class="title">Discover a place you'll love to live.</h1>
-                        <p class="desc">Get the best real estate deals first, before they hit the mass market! HOT
-                            FORECLOSURE DEALS with one simple search.</p>
-                        <a href="#!" class="btn btn-cta">More About Us</a>
-                    </div>
-                    <img src="./assets/images/house illustration.svg" alt="Discover a place you'll love to live."
-                        class="hero-img">
-
-
-                </div>
             </div>
         </header>
 
-        <!-- Clients -->
+        <!------------------- Hero-- ----------------->
+        <div class="hero-wrapper">
+            <div class="content">
+                <div class="hero">
+                    <div class="info">
+                        <p class="welcome line-clamp">Welcome to Besnik Agency</p>
+                        <h1 class="title line-clamp">Discover a place you'll love to live.</h1>
+                        <p class="desc line-clamp" style="--line-clamp:3">Get the best real estate deals first,
+                            before they hit the mass market! hot foreclosure deals with one simple search.</p>
+                        <a href="#!" class="btn">More About Us</a>
+                    </div>
+                    <img src="./assets/images/house illustration.svg" alt="Discover a place you'll love to live."
+                        class="image">
+                </div>
+            </div>
+        </div>
+
+        <!------------------- Clients------------------->
         <div class="clients">
             <div class="content">
-                <div class="row">
-                    <img src="./assets/images/Bensik.svg" alt="Bensik.">
-                    <div class="stars">
-                        <img src="./assets/images/star.svg" alt="">
-                        <img src="./assets/images/star.svg" alt="">
-                        <img src="./assets/images/star.svg" alt="">
-                        <img src="./assets/images/star.svg" alt="">
-                        <img src="./assets/images/star.svg" alt="">
+                <div class="row row-top">
+                    <img src="./assets/images/Bensik.svg" alt="Bensik." class="logo">
+                    <div class="star">
+                        <img src="./assets/images/star.svg" alt="Star">
+                        <img src="./assets/images/star.svg" alt="Star">
+                        <img src="./assets/images/star.svg" alt="Star">
+                        <img src="./assets/images/star.svg" alt="Star">
+                        <img src="./assets/images/star.svg" alt="Star">
                     </div>
                 </div>
 
-                <div class="row row-desc">
+                <div class="row row-bottom">
                     <p class="desc">More than 45,000+ companies trust besnik</p>
                     <p class="desc">5 Star Ratings (2k+ Review)</p>
                 </div>
 
-                <div class="client-img">
-                    <img src="./assets/images/meundies.svg" alt="Meundies">
-                    <img src="./assets/images/slack.svg" alt="Slack">
-                    <img src="./assets/images/amazon.svg" alt="Amazon">
-                    <img src="./assets/images/woo-commerce.svg" alt="Woo-commerce">
-                    <img src="./assets/images/sitepoint.svg" alt="Sitepoint">
+                <div class="client-block">
+                    <a href="#!" class="link">
+                        <img src="./assets/images/meundies.svg" alt="Meundies" class="image">
+                    </a>
+                    <a href="#!" class="link">
+                        <img src="./assets/images/slack.svg" alt="Slack" class="image">
+                    </a>
+                    <a href="#!" class="link">
+                        <img src="./assets/images/amazon.svg" alt="Amazon" class="image">
+                    </a>
+                    <a href="#!" class="link">
+                        <img src="./assets/images/woo-commerce.svg" alt="WOO-commerce" class="image">
+                    </a>
+                    <a href="#!" class="link">
+                        <img src="./assets/images/sitepoint.svg" alt="Sitepoint" class="image">
+                    </a>
                 </div>
             </div>
         </div>
 
-        <!-- Guides -->
+        <!------------------- Guides ------------------->
         <div class="guides">
             <div class="content">
                 <h2 class="sub-title">How its works?</h2>
-                <p class="desc">Everything you need to know when you're looking to buy, rent, or sell - all in one
-                    place.</p>
+                <p class="desc line-clamp" style="--line-clamp:3">Everything you need to know when you're looking to
+                    buy, rent, or sell - all in one place.</p>
 
-                <ul class="list-guide">
+                <div class="list-guide">
+                    <!-- Buyer -->
                     <li class="guide-item">
-                        <img src="./assets/images/Buyer.svg" alt="">
+                        <img src="./assets/images/Buyer.svg" alt="Buyer">
                         <h3 class="title">Buyer Guides</h3>
                         <a href="#!" class="link">
                             <span>How to buy</span>
-                            <img src="./assets/images/arrow-right.svg" alt="">
+                            <img src="./assets/images/arrow-right.svg" class="icon" alt="Arrow">
                         </a>
                     </li>
+
+                    <!-- Renter -->
                     <li class="guide-item">
-                        <img src="./assets/images/Render.svg" alt="">
-                        <h3 class="title">Renter Guides</h3>
+                        <img src="./assets/images/Render.svg" alt="Renter">
+                        <h3 class="title">Buyer Guides</h3>
                         <a href="#!" class="link">
                             <span>How to rent</span>
-                            <img src="./assets/images/arrow-right.svg" alt="">
+                            <img src="./assets/images/arrow-right.svg" class="icon" alt="Arrow">
                         </a>
                     </li>
+
+                    <!-- Seller -->
                     <li class="guide-item">
-                        <img src="./assets/images/Seller.svg" alt="">
+                        <img src="./assets/images/Seller.svg" alt="Seller">
                         <h3 class="title">Seller Guides</h3>
                         <a href="#!" class="link">
                             <span>How to sell</span>
-                            <img src="./assets/images/arrow-right.svg" alt="">
+                            <img src="./assets/images/arrow-right.svg" class="icon" alt="Arrow">
                         </a>
                     </li>
-                </ul>
-
-                <div class="guide-cta">
-                    <a href="#!" class="btn">Sell Full Guidelines</a>
                 </div>
             </div>
         </div>
 
-        <!-- Features -->
+        <!------------------- Features------------------->
         <div class="features">
             <div class="content">
-                <header>
-                    <h2 class="sub-title">Featured Properties</h2>
-                    <div class="row">
-                        <div class="desc">Everything you need to know when you're looking</div>
-                        <a href="#!" class="link">
-                            <span>View All Properties</span>
-                            <img src="./assets/images/arrow-right.svg" alt="">
-                        </a>
-                    </div>
-                </header>
+                <h2 class="sub-title line-clamp" style="--line-clamp: 1">Featured Properties</h2>
+                <div class="row-feature">
+                    <p class="desc">Everything you need to know when you're looking</p>
+                    <a href="#!" class="cta">
+                        <span>View All Properties</span>
+                        <img src="./assets/images/arrow-right.svg" alt="Arrow">
+                    </a>
+                </div>
 
+                <!-- Feature block  -->
                 <div class="list-features">
+
                     <!-- Feature item 1 -->
                     <div class="feature-item">
                         <a href="#!">
-                            <img src="https://plus.unsplash.com/premium_photo-1671403964189-3f68b146ef6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=405&q=80"
-                                alt="Nikko Apartments" class="thumb">
+                            <img src="https://images.unsplash.com/photo-1574701148212-8518049c7b2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80"
+                                class="thumb" alt="Nikko Apartments">
                         </a>
                         <div class="body">
-                            <h3 class="title">
+                            <h3 class="heading">
                                 <a href="#!" class="line-clamp">Nikko Apartments</a>
                             </h3>
-                            <p class="desc line-clamp">8502 Preston Rd. Inglewood, Maine 98280</p>
+                            <p class="desc line-clamp" style="--line-clamp:3">8502 Preston Rd. Inglewood, Maine 98280
+                            </p>
                             <div class="info">
-                                <img src="./assets/images/beds.svg" class="icon" alt="Beds">
+                                <img src="./assets/images/beds.svg" alt="Beds">
                                 <span class="label">5 Beds</span>
 
-                                <img src="./assets/images/both.svg" class="icon" alt="Both">
-                                <span class="label">2 Both</span>
+                                <img src="./assets/images/both.svg" alt="Both">
+                                <span class="label">2 both</span>
 
-                                <img src="./assets/images/sqrt.svg" class="icon" alt="Sqrt">
-                                <span class="label">2000 Sqrt</span>
+                                <img src="./assets/images/sqrt.svg" alt="Sqrt">
+                                <span class="label">2000 Sqft</span>
                             </div>
                         </div>
                     </div>
@@ -168,23 +185,23 @@
                     <!-- Feature item 2 -->
                     <div class="feature-item">
                         <a href="#!">
-                            <img src="https://plus.unsplash.com/premium_photo-1671403964189-3f68b146ef6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=405&q=80"
-                                alt="Nikko Apartments" class="thumb">
+                            <img src="https://images.unsplash.com/photo-1575439462433-8e1969065df7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                class="thumb" alt="CouCou Homestead">
                         </a>
                         <div class="body">
-                            <h3 class="title">
-                                <a href="#!" class="line-clamp">Nikko Apartments</a>
+                            <h3 class="heading">
+                                <a href="#!" class="line-clamp">CouCou Homestead</a>
                             </h3>
                             <p class="desc line-clamp">8502 Preston Rd. Inglewood, Maine 98280</p>
                             <div class="info">
-                                <img src="./assets/images/beds.svg" class="icon" alt="Beds">
+                                <img src="./assets/images/beds.svg" alt="Beds">
                                 <span class="label">5 Beds</span>
 
-                                <img src="./assets/images/both.svg" class="icon" alt="Both">
-                                <span class="label">2 Both</span>
+                                <img src="./assets/images/both.svg" alt="Both">
+                                <span class="label">2 both</span>
 
-                                <img src="./assets/images/sqrt.svg" class="icon" alt="Sqrt">
-                                <span class="label">2000 Sqrt</span>
+                                <img src="./assets/images/sqrt.svg" alt="Sqrt">
+                                <span class="label">2000 Sqft</span>
                             </div>
                         </div>
                     </div>
@@ -192,23 +209,23 @@
                     <!-- Feature item 3 -->
                     <div class="feature-item">
                         <a href="#!">
-                            <img src="https://plus.unsplash.com/premium_photo-1671403964189-3f68b146ef6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=405&q=80"
-                                alt="Nikko Apartments" class="thumb">
+                            <img src="https://images.unsplash.com/photo-1651510630827-e599dfa2d954?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                class="thumb" alt="Lavis 18 Residence">
                         </a>
                         <div class="body">
-                            <h3 class="title">
-                                <a href="#!" class="line-clamp">Nikko Apartments</a>
+                            <h3 class="heading">
+                                <a href="#!" class="line-clamp">Lavis 18 Residence</a>
                             </h3>
                             <p class="desc line-clamp">8502 Preston Rd. Inglewood, Maine 98280</p>
                             <div class="info">
-                                <img src="./assets/images/beds.svg" class="icon" alt="Beds">
+                                <img src="./assets/images/beds.svg" alt="Beds">
                                 <span class="label">5 Beds</span>
 
-                                <img src="./assets/images/both.svg" class="icon" alt="Both">
-                                <span class="label">2 Both</span>
+                                <img src="./assets/images/both.svg" alt="Both">
+                                <span class="label">2 both</span>
 
-                                <img src="./assets/images/sqrt.svg" class="icon" alt="Sqrt">
-                                <span class="label">2000 Sqrt</span>
+                                <img src="./assets/images/sqrt.svg" alt="Sqrt">
+                                <span class="label">2000 Sqft</span>
                             </div>
                         </div>
                     </div>
@@ -216,76 +233,72 @@
             </div>
         </div>
 
-        <!-- Stats -->
+        <!------------------- Stats ------------------->
         <div class="stats">
             <div class="content">
                 <div class="row">
-                    <!-- img block -->
+                    <!-- Image block -->
                     <div class="img-block">
-                        <img src="https://images.unsplash.com/photo-1519282407670-6e0ace7ffc96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        <img src="https://images.unsplash.com/photo-1615561076978-3adb48b36e9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                             class="image" alt="You’ve found a neighborhood you love.">
 
-                        <!-- Stats trend -->
-                        <div class="stats-trend">
-                            <div class="row">
-                                <strong class="value">40,000+</strong>
-                                <img src="./assets/images/arrow-trend-up.svg" alt="Arrow">
-                            </div>
-                            <p class="desc">By avarage for 2 bedroom apments in San Francisco, CA</p>
-                            <div class="separate"></div>
+                        <!-- stat-trend -->
+                        <div class="stat-trend">
+                            <div class="body">
+                                <div class="row">
+                                    <strong class="value">40,000+</strong>
+                                    <img src="./assets/images/arrow-trend-up.svg" class="icon" alt="Arrow">
+                                </div>
+                                <p class="desc">By avarage for 2 bedroom apments in San Francisco, CA</p>
+                                <div class="separate"></div>
+                                <div class="avatar-block">
+                                    <div class="avatar-group">
+                                        <img src="./assets/images/avatar-1.webp" class="avatar" alt="Avatar">
+                                        <img src="./assets/images/avatar-2.jpg" class="avatar" alt="Avatar">
+                                    </div>
 
-                            <!-- Avatar Block -->
-                            <div class="avatar-block">
-                                <div class="avatar-group">
-                                    <img src="./assets/images/avatar-1.webp" class="avatar" alt="Avatar">
-                                    <img src="./assets/images/avatar-2.jpg" class="avatar" alt="Avatar">
-                                </div>
-                                <div class="avatar-group">
-                                    <img src="./assets/images/avatar-3.jpg" class="avatar" alt="Avatar">
-                                    <img src="./assets/images/avatar-4.jpg" class="avatar" alt="Avatar">
-                                    <img src="./assets/images/avatar-5.jpg" class="avatar" alt="Avatar">
-                                    <div class="avatar" style="--bg-color:#1F3BB1">
-                                        R
+                                    <div class="avatar-group">
+                                        <img src="./assets/images/avatar-3.jpg" class="avatar" alt="Avatar">
+                                        <img src="./assets/images/avatar-4.jpg" class="avatar" alt="Avatar">
+                                        <img src="./assets/images/avatar-5.jpg" class="avatar" alt="Avatar">
+                                        <span class="avatar" style="--bg-color:#1F3BB1">R</span>
                                     </div>
-                                </div>
-                                <div class="avatar-group">
-                                    <div class="avatar" style="--bg-color:#24D6D9">
-                                        FJ
+
+                                    <div class="avatar-group">
+                                        <span class="avatar" style="--bg-color:#24D6D9">FJ</span>
+                                        <img src="./assets/images/avatar-6.jpg" class="avatar" alt="Avatar">
+                                        <span class="avatar" style="--bg-color:#F8C120">S</span>
                                     </div>
-                                    <img src="./assets/images/avatar-6.jpg" class="avatar" alt="Avatar">
-                                    <div class="avatar" style="--bg-color:#F8C120">
-                                        S
+
+                                    <div class="avatar-group">
+                                        <img src="./assets/images/avatar-7.jpeg" class="avatar" alt="Avatar">
+                                        <img src="./assets/images/avatar-8.jpg" class="avatar" alt="Avatar">
+                                        <img src="./assets/images/avatar-9.webp" class="avatar" alt="Avatar">
+                                        <span class="avatar" style="--bg-color:#F97F6B">JJ</span>
                                     </div>
-                                </div>
-                                <div class="avatar-group">
-                                    <img src="./assets/images/avatar-7.jpeg" class="avatar" alt="Avatar">
-                                    <img src="./assets/images/avatar-8.jpg" class="avatar" alt="Avatar">
-                                    <img src="./assets/images/avatar-9.webp" class="avatar" alt="Avatar">
-                                    <div class="avatar" style="--bg-color:#F97F6B">
-                                        JJ
+
+                                    <div class="avatar-group">
+                                        <img src="./assets/images/avatar-10.jpg" class="avatar" alt="Avatar">
+                                        <span class="avatar" style="--bg-color:#73A242">QV</span>
                                     </div>
-                                </div>
-                                <div class="avatar-group">
-                                    <img src="./assets/images/avatar-10.jpg" class="avatar" alt="Avatar">
-                                    <div class="avatar" style="--bg-color:#73A242">
-                                        QV
+
+                                    <div class="avatar-group">
+                                        <img src="./assets/images/avatar-11.jpeg" class="avatar" alt="Avatar">
+                                        <img src="./assets/images/avatar-12.webp" class="avatar" alt="Avatar">
                                     </div>
-                                </div>
-                                <div class="avatar-group">
-                                    <img src="./assets/images/avatar-11.jpeg" class="avatar" alt="Avatar">
-                                    <img src="./assets/images/avatar-12.webp" class="avatar" alt="Avatar">
-                                </div>
-                                <div class="avatar-group">
-                                    <img src="./assets/images/avatar-13.jpeg" class="avatar" alt="Avatar">
-                                    <div class="avatar" style="--bg-color:#1F3BB0">
-                                        UI
+
+                                    <div class="avatar-group">
+                                        <img src="./assets/images/avatar-13.jpeg" class="avatar" alt="Avatar">
+                                        <span class="avatar" style="--bg-color:#1F3BB0">IU</span>
                                     </div>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
 
-                    <!-- info -->
+                    <!-- Info block -->
                     <div class="info">
                         <h2 class="sub-title">You’ve found a neighborhood you love.</h2>
                         <p class="desc">When you own a home, you’re committing to living in one location for a while. In
@@ -293,34 +306,35 @@
                             recent Trulia survey, we found that five out of six respondents said finding the right
                             neighborhood </p>
                     </div>
+
                 </div>
 
-                <!-- Qty -->
                 <div class="qty-block">
                     <div class="qty-item">
                         <strong class="qty">2,500</strong>
-                        <div class="qty-desc">Homes For Sale</div>
+                        <p class="desc">Homes For Sale</p>
                     </div>
+
                     <div class="qty-item">
                         <strong class="qty">5,000+</strong>
-                        <div class="qty-desc">Homes Recently Sold</div>
+                        <p class="desc">Homes Recently Sold</p>
                     </div>
+
                     <div class="qty-item">
                         <strong class="qty">170+</strong>
-                        <div class="qty-desc">Price Reduced</div>
+                        <p class="desc">Price Reduced</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Subscription -->
+        <!------------------- Subscription ------------------->
         <div class="subscription">
             <div class="content">
                 <div class="body">
                     <div class="info">
-                        <h2 class="sub-title line-clamp">Subscribe to our Newsletter! </h2>
-                        <p class="desc line-clamp" style="--line-clamp:3">Subscribe to our newsletter and stay
-                            updated.</p>
+                        <h2 class="sub-title">Subscribe to our Newsletter!</h2>
+                        <p class="desc">Subscribe to our newsletter and stay updated.</p>
                         <a href="#!" class="btn">Subscribe</a>
                     </div>
                     <img src="./assets/images/newletter.svg" class="image" alt="Subscribe to our Newsletter!">
@@ -328,92 +342,94 @@
             </div>
         </div>
 
-        <!-- Footer -->
+        <!------------------- Footer ------------------->
         <footer class="footer">
             <div class="content">
                 <div class="row row-top">
-                    <!-- Product column -->
-                    <div class="column">
+
+                    <!-- Product -->
+                    <div class="column-item">
                         <h3 class="heading">Product</h3>
                         <ul class="list">
-                            <li>
-                                <a href="#!" class="link">Listing</a>
+                            <li class="item">
+                                <a href="#!">Listing</a>
                             </li>
-                            <li>
-                                <a href="#!" class="link">Property</a>
+                            <li class="item">
+                                <a href="#!">Property</a>
                             </li>
-                            <li>
-                                <a href="#!" class="link">Agents</a>
+                            <li class="item">
+                                <a href="#!">Agents</a>
                             </li>
-                            <li>
-                                <a href="#!" class="link">Blog</a>
+                            <li class="item">
+                                <a href="#!">Blog</a>
                             </li>
                         </ul>
                     </div>
 
-                    <!-- Resources column -->
-                    <div class="column">
+                    <!-- Resources -->
+                    <div class="column-item">
                         <h3 class="heading">Resources</h3>
                         <ul class="list">
-                            <li>
-                                <a href="#!" class="link">Our Homes</a>
+                            <li class="item">
+                                <a href="#!">Our Homes</a>
                             </li>
-                            <li>
-                                <a href="#!" class="link">Member Stories</a>
+                            <li class="item">
+                                <a href="#!">Member Stories</a>
                             </li>
-                            <li>
-                                <a href="#!" class="link">Video</a>
+                            <li class="item">
+                                <a href="#!">Video</a>
                             </li>
-                            <li>
-                                <a href="#!" class="link">Free trial</a>
+                            <li class="item">
+                                <a href="#!">Free trial</a>
                             </li>
                         </ul>
                     </div>
 
-                    <!-- Company columng -->
-                    <div class="column">
+                    <!-- Company -->
+                    <div class="column-item">
                         <h3 class="heading">Company</h3>
                         <ul class="list">
-                            <li>
-                                <a href="#!" class="link">Company</a>
+                            <li class="item">
+                                <a href="#!">Patnerships</a>
                             </li>
-                            <li>
-                                <a href="#!" class="link">Terms of use</a>
+                            <li class="item">
+                                <a href="#!">Terms of use</a>
                             </li>
-                            <li>
-                                <a href="#!" class="link">Privacy</a>
+                            <li class="item">
+                                <a href="#!">Privacy</a>
                             </li>
-                            <li>
-                                <a href="#!" class="link">Sitemap</a>
+                            <li class="item">
+                                <a href="#!">Sitemap</a>
                             </li>
                         </ul>
                     </div>
 
-                    <!-- Get in touch column -->
-                    <div class="column">
+                    <!-- Get in touch -->
+                    <div class="column-item">
                         <h3 class="heading">Get in touch</h3>
                         <p class="desc">You’ll find your next home, in any style you prefer.</p>
                         <div class="socials">
-                            <a href="#!" class="social-link">
-                                <img src="./assets/images/facebook.svg" alt="">
+                            <a href="#!">
+                                <img src="./assets/images/facebook.svg" alt="Facebook icon">
                             </a>
-                            <a href="#!" class="social-link">
-                                <img src="./assets/images/Twitter.svg" alt="">
+                            <a href="#!">
+                                <img src="./assets/images/Twitter.svg" alt="Twitter icon">
                             </a>
-                            <a href="#!" class="social-link">
-                                <img src="./assets/images/Linkin.svg" alt="">
+                            <a href="#!">
+                                <img src="./assets/images/Linkin.svg" alt="Linkin icon">
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="row row-bottom">
-                    <img src="./assets/images/Bensik.svg" class="logo" alt="Bensik.">
-                    <p class="copyright line-clamp" style="--line-clamp:3">Copyright 2020.com, All rights reserved.</p>
+                    <img src="./assets/images/Bensik.svg" alt="Bensik." class="logo">
+                    <p class="copyright">Copyright 2020.com, All rights reserved.</p>
                 </div>
             </div>
         </footer>
     </main>
+
 
 
 </body>

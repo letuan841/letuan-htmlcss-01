@@ -110,20 +110,19 @@ li {
 
 /* ================ Hero ======================== */
 .hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
   height: calc(100vh - 90px);
   background-color: #e6f0ff;
 }
 
-.hero {
-  padding-top: 118px;
-}
-
-.hero .info {
+.hero-wrapper .info {
   width: 50%;
 }
 
-.hero .welcome {
+.hero-wrapper .welcome {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -131,7 +130,7 @@ li {
   color: #687690;
 }
 
-.hero .title {
+.hero-wrapper .title {
   margin-top: 8px;
   font-weight: 700;
   font-size: 6.2rem;
@@ -139,7 +138,7 @@ li {
   color: var(--primary-color);
 }
 
-.hero .desc {
+.hero-wrapper .desc {
   margin-top: 30px;
   font-weight: 400;
   font-size: 1.8rem;
@@ -147,11 +146,11 @@ li {
   color: #5a6473;
 }
 
-.hero .btn {
+.hero-wrapper .btn {
   margin-top: 40px;
 }
 
-.hero .image {
+.hero-wrapper .image {
   position: absolute;
   bottom: 0;
   right: calc((100vw - 1110px) / 2 - 100px);
